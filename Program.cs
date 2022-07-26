@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace APIGateway
+namespace UsersSerrvice
 {
     public class Program
     {
@@ -21,16 +21,6 @@ namespace APIGateway
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                })
-
-
-
-            //add this code 
-            .ConfigureAppConfiguration((hostingConext, config) =>
-            {
-                config.AddJsonFile("ocelot.json");
-            });
-
-
+                });
     }
 }
