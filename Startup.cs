@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UsersSerrvice
+namespace WebApplication1
 {
     public class Startup
     {
